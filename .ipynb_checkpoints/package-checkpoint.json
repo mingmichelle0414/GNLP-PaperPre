@@ -1,0 +1,21 @@
+{
+  "name": "HOLODECK: Language Guided Generation of 3D Embodied AI Environments",
+  "private": false,
+  "scripts": {
+    "clean": "rm -rf node_modules && npm install",
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "51.3.0",
+    "@slidev/theme-default": "^1.0.0",
+    "@slidev/theme-seriph": "^1.0.0",
+    "@slidev/plugin-zoom": "^0.1.0",   
+    "@slidev/plugin-embed": "^0.1.0" 
+  },
+  "devDependencies": {
+    "playwright-chromium": "1.38.1"
+  }
+}
+
